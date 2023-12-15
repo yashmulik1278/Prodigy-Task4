@@ -1,0 +1,157 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    position: fixed; 
+    top: 0; 
+    background-color: #333;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%; 
+    padding: 10px 20px;
+  }
+  
+  .navbar li {
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .navbar li:nth-of-type(4){
+    margin-right: 60px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #66CCFF;
+  }
+   
+  
+  #top-section {
+    background-color: #f7f7f7;
+    color: #333;
+    padding-top: 140px;
+    padding-bottom: 120px;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .profile-picture img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .profile-info {
+    flex: 1;
+    font-size: 1.8em;
+    padding-left: 40px;
+  }
+
+  #about {
+    background-color: #333;
+    color: #f7f7f7;
+    padding: 170px 0;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    font-size: 1.2em;
+    margin: 0 auto;
+  }
+  
+  .about-container h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+  }
+  
+  .about-container p {
+    line-height: 1.6;
+  }
+
+  #education {
+    background-color: #f7f7f7; 
+    color: #333; 
+    padding: 60px 0;
+  }
+  
+  .education-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .education-container h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  
+  .education-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .education-container li {
+    margin-bottom: 20px;
+  }
+  
+  .education-container h3 {
+    font-size: 27px;
+    margin-bottom: 5px;
+  }
+  
+  .education-container p {
+    font-size: 20px;
+  }
+
+  #contact {
+    background-color: #333; 
+    color: #f7f7f7; 
+    padding: 170px 0;
+  }
+  
+  .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-container h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-container p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  
+  .contact-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-container li {
+    margin-bottom: 10px;
+    
+  }
+  
+  .contact-container a {
+    color:#f7f7f7;
+    text-decoration: none;
+  }
